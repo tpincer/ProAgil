@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DOTNETCORE\\ProAgil.Web\\ProAgil.Web.csproj": {}
+    "C:\\Projetos\\DOTNETCORE\\ProAgil.WebAPI\\ProAgil.API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DOTNETCORE\\ProAgil.Web\\ProAgil.Web.csproj": {
+    "C:\\Projetos\\DOTNETCORE\\ProAgil.WebAPI\\ProAgil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DOTNETCORE\\ProAgil.Web\\ProAgil.Web.csproj",
-        "projectName": "ProAgil.Web",
-        "projectPath": "C:\\Projetos\\DOTNETCORE\\ProAgil.Web\\ProAgil.Web.csproj",
+        "projectUniqueName": "C:\\Projetos\\DOTNETCORE\\ProAgil.WebAPI\\ProAgil.API.csproj",
+        "projectName": "ProAgil.API",
+        "projectPath": "C:\\Projetos\\DOTNETCORE\\ProAgil.WebAPI\\ProAgil.API.csproj",
         "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DOTNETCORE\\ProAgil.Web\\obj\\",
+        "outputPath": "C:\\Projetos\\DOTNETCORE\\ProAgil.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,6 +49,10 @@
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
